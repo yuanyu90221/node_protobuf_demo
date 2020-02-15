@@ -1,0 +1,24 @@
+{
+  "name": "node_protobuf_demo",
+  "version": "1.0.0",
+  "description": "node with protobufjs example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run_server": "node src/server",
+    "run_dev": "nodemon src/server",
+    "run_client_test": "node src/client",
+    "build": "npm i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "protobufjs": "^6.8.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

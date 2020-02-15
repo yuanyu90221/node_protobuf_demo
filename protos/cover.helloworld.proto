@@ -1,0 +1,12 @@
+package cover;
+
+message helloworld {
+    message helloCoverReq {
+        required string name = 1;
+    }
+
+    message helloCoverRsp {
+        required int32 retcode = 1;
+        optional string reply = 2;
+    }
+}
