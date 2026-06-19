@@ -16,7 +16,7 @@
   "dependencies": {
     "dgram": "^1.0.1",
     "dotenv": "^8.2.0",
-    "protobufjs": "^7.5.8"
+    "protobufjs": "^7.6.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
